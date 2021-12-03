@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disguisting farmer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>
+        A pp(performance points) az osu! rankrendszerje.
+    </h3>
+    <p>
+        Célja, hogy a képességek fejlődésének középpontját a
+        játékidőről a játékos képességének tényleges bemutatására helyezze át. Ezt egy olyan egyedi pontszám
+        kiszámításával éri el, amely egy beatmap nehézségén és a játékosnak az adott beatmap-én nyújtott
+        teljesítményén alapul.
+    </p>
+    <p>
+        A teljesítménypontok nagymértékben a kiszámított beatmap nehézségén alapulnak, amelyet egy egyedi, minden egyes
+        játékmódra kidolgozott algoritmus határoz meg.
+    </p>
+    <p>
+        A játékos által játszott beatmap nehézsége határozza meg a pontszámának pp végértékét. A képlet kialakítása
+        szerint négy alapvető értékre támaszkodik: aim, sebesség, pontosság és megterhelés. Ezek mindegyike különböző
+        nagyságrendben kombinálódik, hogy egy olyan összpontszámot kapjunk, amely egy adott ütemtérkép nehézségéhez és a
+        játékos egyéni teljesítményéhez kapcsolódik az adott beatmap-en.
+    </p>
+    <p>
+        A pontszámokat ezután "súlyozzák" egymással szemben, hogy csak a felhasználó által elért legjobb pontszámok
+        számítanak a legtöbbet a teljes teljesítménypontok rangsorában. A súlyozási rendszer néven ismert rendszer
+        célja, hogy megakadályozza a könnyű beatmapsokon az alacsonyabb pp pontszámok gyors és ismétlődő megszerzését
+        azáltal, hogy csökkenti a ténylegesen megszerzett pp mennyiségét a játékos egyéb legjobb pontszámai alapján.
+    </p>
+    <div>
+        <iframe height="576" width="1024" src="https://www.youtube.com/embed/7AYkfX2KZfs"></iframe>
+    </div>
+</body>
+
+</html>
